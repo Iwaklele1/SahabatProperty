@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
 
-const DetailPage = () => {
+const DetailPage: React.FC = () => {
   return (
-    <div className='page-div'>DetailPage</div>
-  )
-}
+    <div style={{ padding: "20px" }}>
+      <h1>Detail Properti</h1>
+      <p>Ini adalah halaman detail properti.</p>
+    </div>
+  );
+};
 
-export default DetailPage
+export default DetailPage;

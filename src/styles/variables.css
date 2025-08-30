@@ -1,0 +1,13 @@
+:root {
+  /* 🎨 Colors */
+  --olive-green: #364037;
+  --primary-white: #F9FAFB;
+  --smooth-light-green: #D8FAE9;
+  --smooth-olive-green: #536155; /* khusus footer */
+  --black: #1E1E1E;
+  --gray: #5F5F5F;
+
+  /* 🖋 Typography */
+  --font-header: 'Playfair Display', serif;
+  --font-body: 'Roboto', sans-serif;
+}
