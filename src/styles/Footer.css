@@ -1,0 +1,107 @@
+@import "./variables.css";
+
+.footer {
+  background-color: var(--olive-green);
+  border-radius: 1.5rem 1.5rem 0 0;
+  padding: 3rem 280px;
+  color: var(--primary-white);
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: start; /* biar atasnya sejajar */
+  gap: 6rem;
+}
+
+/* LEFT */
+.footer-left {
+  max-width: 600px;
+}
+
+.footer-brand {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.footer-text h1 {
+  font-family: var(--font-header);
+  font-size: 2.5rem;
+  line-height: 1.2;
+  margin: 0;
+  color: var(--primary-white);
+}
+
+.footer-logo {
+  width: 80px;
+  height: auto;
+}
+
+.footer-left p {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--white-gray);
+}
+
+/* RIGHT */
+
+.footer-right {
+    top: 0;
+    max-width: 600px;
+}
+
+.contact-label {
+  font-family: var(--font-header);
+  font-size: 1.8rem;
+  margin-bottom: 1.2rem;
+  color: var(--primary-white);
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  background-color: var(--smooth-olive-green);
+  border-radius: 8px;
+  padding: 0.7rem 1rem;
+  margin-bottom: 0.75rem;
+  width: 450px;
+  position: relative;
+}
+
+.contact-icon {
+  font-size: 1rem;
+  color: var(--white-gray);
+}
+
+.contact-link-icon {
+    color: var(--primary-white);
+    position: absolute;
+    right: 0;
+    margin-right: 1rem;
+}
+
+.contact-item span {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  color: var(--white-gray);
+}
+
+/* RESPONSIVE */
+@media (max-width: 1200px) {
+  .footer {
+    padding: 2rem;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .footer-right .contact-item {
+    width: 100%;
+  }
+}

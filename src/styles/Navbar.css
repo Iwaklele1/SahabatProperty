@@ -1,0 +1,88 @@
+@import "./variables.css";
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--olive-green);
+  padding: 0.75rem 100px;
+  border-radius: 0 0 1.5rem 1.5rem;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.navbar-logo {
+  width: 32px;
+  height: auto;
+}
+
+.navbar-brand {
+  font-family: var(--font-header);
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--primary-white);
+}
+
+.navbar-search {
+  display: flex;
+  align-items: center;
+  background-color: var(--primary-white);
+  border-radius: 9999px;
+  padding: 0.25rem 0.5rem;
+  width: 380px;
+  position: relative;
+}
+
+.navbar-search input {
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 0.25rem 0.5rem;
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  /* display: flex; */
+}
+
+.navbar-search button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: 1rem;
+  position: absolute;
+  right: 0px;
+  display: flex;
+  margin-right: 4px;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links li,
+.navbar-links a {
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--primary-white);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.navbar-links li:hover,
+.navbar-links a:hover {
+  text-decoration: underline;
+}
