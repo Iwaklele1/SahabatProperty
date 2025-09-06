@@ -2,7 +2,8 @@
 
 .hero-section {
   position: relative;
-  height: 894px; /* Bisa disesuaikan */
+  width: 1720px;
+  height: 864px;
   display: flex;
   justify-content: center;
   align-items: center;
