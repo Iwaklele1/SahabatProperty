@@ -12,7 +12,6 @@ import "swiper/css/effect-fade";
 
 interface SmallCardProps {
   images: string[]; // Array gambar untuk Swiper
-  price: string;    // Harga rumah
   title: string;    // Judul rumah/perumahan
   location: string; // Lokasi singkat
   desc: string;     // Deskripsi singkat rumah
@@ -21,7 +20,6 @@ interface SmallCardProps {
 
 const SmallCard: React.FC<SmallCardProps> = ({
   images,
-  price,
   title,
   location,
   desc,
@@ -51,7 +49,6 @@ const SmallCard: React.FC<SmallCardProps> = ({
 
       {/* Konten Card */}
       <div className="small-card-content">
-        <h2 className="small-card-price">{price}</h2>
         <h3 className="small-card-title">{title}</h3>
         <p className="small-card-location">{location}</p>
         <p className="small-card-desc">{desc}</p>

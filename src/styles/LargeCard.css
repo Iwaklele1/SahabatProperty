@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@import "./variables.css";
 
 .large-card-container {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  background-color: #D8FAE9;
+  background-color: var(--smooth-light-green);
   border-radius: 20px;
   padding: 24px;
   margin: 2rem auto;
@@ -26,27 +27,23 @@
 .large-card-title {
   font-size: 1.6rem;
   font-weight: 700;
-  color: #364037;
   margin-bottom: 12px;
 }
 
 .large-card-desc {
   font-size: 0.95rem;
-  color: #333;
   line-height: 1.6;
   margin-bottom: 14px;
 }
 
 .large-card-address {
   font-size: 0.9rem;
-  color: #222;
   margin-bottom: 12px;
 }
 
 .large-card-subtitle {
   font-size: 1rem;
   font-weight: 600;
-  color: #364037;
   margin-top: 10px;
   margin-bottom: 6px;
 }
@@ -55,7 +52,6 @@
   padding-left: 18px;
   margin-bottom: 18px;
   font-size: 0.9rem;
-  color: #333;
 }
 
 .large-card-list li {
@@ -64,11 +60,10 @@
 
 /* Tombol Show Details */
 .large-card-button {
+  color: var(--primary-white);
   padding: 10px 18px;
-  background-color: #364037;
-  color: white;
+  background-color: var(--olive-green);
   font-size: 0.95rem;
-  font-weight: 600;
   border: none;
   border-radius: 8px;
   width: fit-content;

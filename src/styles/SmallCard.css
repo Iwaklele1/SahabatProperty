@@ -9,8 +9,9 @@
 }
 
 .small-card-container {
-  width: 300px;
-  background-color: #d8fae9; /* Warna sesuai permintaan */
+  width: 396px;
+  height: 483px;
+  background-color: var(--smooth-light-green); 
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
   overflow: hidden;
@@ -18,6 +19,7 @@
   margin-left: 20px; 
   flex-direction: column;
   transition: transform 0.3s ease-in-out;
+  padding: 45px;
 }
 
 .small-card-container:hover {
@@ -38,7 +40,7 @@
 
 /* Konten Card */
 .small-card-content {
-  padding: 15px;
+  padding: 45px;
 }
 
 .small-card-price {

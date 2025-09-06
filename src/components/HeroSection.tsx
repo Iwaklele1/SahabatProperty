@@ -15,10 +15,7 @@ const HeroSection: React.FC = () => {
         </h1>
         <p className="hero-subtitle">
           Di Sahabat Property, kami percaya bahwa rumah bukan hanya bangunan, 
-          tetapi tempat di mana cerita terbaik hidup Anda dimulai.
-        </p>
-        <p className="hero-desc">
-          Dengan komitmen pada kejujuran, transparansi, dan pelayanan sepenuh hati, 
+          tetapi tempat di mana cerita terbaik hidup Anda dimulai. Dengan komitmen pada kejujuran, transparansi, dan pelayanan sepenuh hati, 
           kami hadir untuk menjadi mitra terpercaya dalam setiap langkah perjalanan properti Anda.
         </p>
       </div>

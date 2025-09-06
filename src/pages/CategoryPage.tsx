@@ -8,7 +8,6 @@ const CategoryPage = () => {
     <div style={{ display: "flex", gap: "20px", flexWrap: "wrap" }}>
       <SmallCard
         images={[rumah1, rumah2]}
-        price="Rp 399 Juta"
         title="Perum Jaya Regency Sedati"
         location="Sidoarjo"
         desc="SIDOARJO KAB., JAWA TIMUR • LT 90 m² • LB 60 m² • 2 KT • 1 KM"
@@ -17,7 +16,6 @@ const CategoryPage = () => {
 
       <SmallCard
         images={[rumah2, rumah1]}
-        price="Rp 899 Juta"
         title="Perum Sedati Indah"
         location="Sidoarjo"
         desc="SIDOARJO KAB., JAWA TIMUR • LT 80 m² • LB 90 m² • 3 KT • 2 KM"
